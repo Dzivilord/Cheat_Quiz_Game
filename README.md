@@ -1,8 +1,24 @@
-# Cheat_Quiz_Game
-This is my first spontaneous project that i create. This program's used to solve some kind of quiz game automatically that display on monitor. By using image-to-text technology to scan the question and indicate the answer that saved in a json file through key-value. It can search in the question warehouse having around 500 question within 2 second.
-# Instruction:
-Step 1: Allocating all required position by draging and dropping, it will have 6 points total (8 in somecase,base on position of four questions). A is for Choice#1, B is for Choice#2 , Ques_TL is the position of top-left corner of question frame, Ques_BR is for position of bottom-right. Do the same for frame contain four questions.
-Step 2: Press Enter or Button "Enter here" to get the answer.
-Step 3: Programme automatically move the cursor to the right-answer, this step will take at least 1,5 second to 2,5 second.
+# Cheat Quiz Game
 
-* You also can save all cordinates in cordinates.json for saving time for next time . The questions that don't exists in question-warehouse will capture and save temporary in temp.txt, check to get question and to questions.json along with correct answers.
+This is my first spontaneous project. The program automatically solves quiz games displayed on your monitor. It uses image-to-text technology (OCR) to scan questions and matches them with answers stored in a JSON file (key-value pairs). It can search a question database of around 500 questions in under 2 seconds.
+
+## Instructions
+
+1. **Set Positions:**  
+    Drag and drop to allocate all required positions (6 points total, or 8 in some cases depending on the layout).  
+    - **A:** Choice #1  
+    - **B:** Choice #2  
+    - **Ques_TL:** Top-left corner of the question frame  
+    - **Ques_BR:** Bottom-right corner of the question frame  
+    Repeat for the frame containing four questions if needed.
+
+2. **Get the Answer:**  
+    Press `Enter` or click the "Enter here" button to retrieve the answer.
+
+3. **Auto-Select Answer:**  
+    The program will automatically move the cursor to the correct answer. This step takes about 1.5 to 2.5 seconds.
+
+**Tips:**
+- You can save all coordinates in `cordinates.json` to speed up setup next time.
+- Questions not found in the database are saved temporarily in `temp.txt`. Review these and add them to `questions.json` with the correct answers.
+
