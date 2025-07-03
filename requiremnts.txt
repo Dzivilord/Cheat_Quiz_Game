@@ -1,0 +1,6 @@
+pytesseract
+rapidfuzz
+customtkinter
+pyautogui
+mss
+pyinstaller

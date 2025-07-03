@@ -1,0 +1,20 @@
+{
+    "X1": "575",
+    "Y1": "582",
+    "X2": "576",
+    "Y2": "646",
+    "X3": "576",
+    "Y3": "712",
+    "X4": "575",
+    "Y4": "778",
+    "Question_X_TL": "548",
+    "Question_Y_TL": "361",
+    "Question_X_BR": "1385",
+    "Question_Y_BR": "480",
+    "Choice_X_TL": "603",
+    "Choice_Y_TL": "548",
+    "Choice_X_BR": "1122",
+    "Choice_Y_BR": "806",
+    "CheckPoint_X": "1284",
+    "CheckPoint_Y": "836"
+}
